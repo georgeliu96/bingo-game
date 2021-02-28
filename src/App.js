@@ -1,23 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import Cell from "./cell";
+import createTable from "./setup";
 
 function App() {
+  const table = createTable();
+  const transposed = table[0].map((_, colIndex) => table.map(row => row[colIndex]));
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="col header">
+        {["B", "I", "N", "G", "O"].map(cell => {
+          return <div className="bingo-cell header">
+            {cell}
+            </div>
+        })}
+      </div>
+      {transposed.map((col, i) => {
+        return <div className="col" key={`col-${i}`}>
+            {col.map((row, j) => {
+              return <div className="row">
+                  <Cell key={row} num={row} isFree={i === 2 && j === 2}/>
+                </div>
+            })}
+          </div>
+      })}
     </div>
   );
 }
