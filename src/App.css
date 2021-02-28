@@ -6,6 +6,9 @@
   vertical-align: middle;
   border: 1px solid black;
   box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .bingo-cell:hover{
