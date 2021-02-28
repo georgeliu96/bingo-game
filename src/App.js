@@ -19,7 +19,7 @@ function App() {
         return <div className="col" key={`col-${i}`}>
             {col.map((row, j) => {
               return <div className="row">
-                  <Cell key={row} num={row} isFree={i === 2 && j === 2}/>
+                  <Cell key={row} num={row} isFree={false && i === 2 && j === 2}/>
                 </div>
             })}
           </div>
