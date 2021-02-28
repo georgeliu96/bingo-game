@@ -8,6 +8,10 @@
   box-sizing: border-box;
 }
 
+.bingo-cell:hover{
+  cursor: pointer;
+}
+
 .bingo-cell.header {
   font-weight: 700;
   margin-top: 12px;
