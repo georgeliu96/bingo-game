@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/bingo-game/static/css/main.ff3efaf6.chunk.css",
+    "main.js": "/bingo-game/static/js/main.8a83155c.chunk.js",
+    "main.js.map": "/bingo-game/static/js/main.8a83155c.chunk.js.map",
+    "runtime-main.js": "/bingo-game/static/js/runtime-main.3b1d9840.js",
+    "runtime-main.js.map": "/bingo-game/static/js/runtime-main.3b1d9840.js.map",
+    "static/js/2.29897f1f.chunk.js": "/bingo-game/static/js/2.29897f1f.chunk.js",
+    "static/js/2.29897f1f.chunk.js.map": "/bingo-game/static/js/2.29897f1f.chunk.js.map",
+    "static/js/3.eba36220.chunk.js": "/bingo-game/static/js/3.eba36220.chunk.js",
+    "static/js/3.eba36220.chunk.js.map": "/bingo-game/static/js/3.eba36220.chunk.js.map",
+    "index.html": "/bingo-game/index.html",
+    "static/css/main.ff3efaf6.chunk.css.map": "/bingo-game/static/css/main.ff3efaf6.chunk.css.map",
+    "static/js/2.29897f1f.chunk.js.LICENSE.txt": "/bingo-game/static/js/2.29897f1f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3b1d9840.js",
+    "static/js/2.29897f1f.chunk.js",
+    "static/css/main.ff3efaf6.chunk.css",
+    "static/js/main.8a83155c.chunk.js"
+  ]
+}
